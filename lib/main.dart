@@ -1,18 +1,18 @@
+import 'package:drinks/pages/LoginPage.dart';
+import 'package:drinks/pages/SplashPage.dart';
 import 'package:flutter/material.dart';
-import 'pages/ConversationPageList.dart';
 
-void main() => runApp(Messio());
+void main() => runApp(MyApp());
 
-class Messio extends StatelessWidget {
-  // This widget is the root of your application.
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Drinks',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: ConversationPageList(),
+      title: 'Welcome to Flutter',
+      home: SplashPage(),
+      routes: <String, WidgetBuilder>{
+        '/login': (BuildContext context) => LoginPage(),
+      },
     );
   }
 }

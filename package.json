@@ -1,0 +1,8 @@
+{
+  "name": "drinks",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fcgomes92/flutter-drinks.git",
+  "author": "Fernando Gomes <fcgomes.92@gmail.com>",
+  "license": "MIT"
+}

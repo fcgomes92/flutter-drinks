@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:drinks/config/Palette.dart';
 
 class InputWidget extends StatelessWidget {
+  InputWidget({IconData this.icon});
+
+  final IconData icon;
   final TextEditingController textEditingController =
       new TextEditingController();
 
@@ -14,7 +17,7 @@ class InputWidget extends StatelessWidget {
             child: new Container(
               margin: new EdgeInsets.symmetric(horizontal: 1.0),
               child: new IconButton(
-                icon: new Icon(Icons.face),
+                icon: new Icon(this.icon),
                 color: Palette.primaryColor,
               ),
             ),
