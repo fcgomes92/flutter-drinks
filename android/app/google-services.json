@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "714959229889",
+    "firebase_url": "https://drinks-e0b36.firebaseio.com",
+    "project_id": "drinks-e0b36",
+    "storage_bucket": "drinks-e0b36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714959229889:android:1534a4945a5a6ce5705540",
+        "android_client_info": {
+          "package_name": "com.fcgomes.drinks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714959229889-doi8nc046df7lb5rhl0rqi3ab7k7t8kf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fcgomes.drinks",
+            "certificate_hash": "b33677263c0b9d48e9339a5c13b8af9fceef5340"
+          }
+        },
+        {
+          "client_id": "714959229889-rma2mpm150ufqdmjucms1trg2jc1dnas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcHstB4Ba8U0ecr9E5J0SFc2p-wBEixpY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714959229889-rma2mpm150ufqdmjucms1trg2jc1dnas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
